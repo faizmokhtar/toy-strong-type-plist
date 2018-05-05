@@ -14,6 +14,8 @@
 		985F5C6B209D85DA00EE8BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985F5C69209D85DA00EE8BFF /* LaunchScreen.storyboard */; };
 		985F5C76209D85DA00EE8BFF /* toy_strong_type_plistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985F5C75209D85DA00EE8BFF /* toy_strong_type_plistTests.swift */; };
 		985F5C81209D85DA00EE8BFF /* toy_strong_type_plistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985F5C80209D85DA00EE8BFF /* toy_strong_type_plistUITests.swift */; };
+		985F5C8F209D865900EE8BFF /* PlistFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985F5C8E209D865900EE8BFF /* PlistFile.swift */; };
+		985F5C91209D895C00EE8BFF /* InfoPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985F5C90209D895C00EE8BFF /* InfoPlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		985F5C7C209D85DA00EE8BFF /* toy-strong-type-plistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "toy-strong-type-plistUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		985F5C80209D85DA00EE8BFF /* toy_strong_type_plistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toy_strong_type_plistUITests.swift; sourceTree = "<group>"; };
 		985F5C82209D85DA00EE8BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		985F5C8E209D865900EE8BFF /* PlistFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistFile.swift; sourceTree = "<group>"; };
+		985F5C90209D895C00EE8BFF /* InfoPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				985F5C60209D85D900EE8BFF /* AppDelegate.swift */,
 				985F5C62209D85D900EE8BFF /* ViewController.swift */,
+				985F5C8E209D865900EE8BFF /* PlistFile.swift */,
+				985F5C90209D895C00EE8BFF /* InfoPlist.swift */,
 				985F5C64209D85D900EE8BFF /* Main.storyboard */,
 				985F5C67209D85DA00EE8BFF /* Assets.xcassets */,
 				985F5C69209D85DA00EE8BFF /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				985F5C63209D85D900EE8BFF /* ViewController.swift in Sources */,
+				985F5C8F209D865900EE8BFF /* PlistFile.swift in Sources */,
+				985F5C91209D895C00EE8BFF /* InfoPlist.swift in Sources */,
 				985F5C61209D85D900EE8BFF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

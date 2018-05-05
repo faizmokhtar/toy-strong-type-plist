@@ -12,14 +12,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        do {
+            let appList = try PlistFile<InfoPlist>()
+
+            guard let url = appList.data.configuration.url else { fatalError("Invalid URL specified") }
+            let environment = appList.data.configuration.environment
+
+            print("url: \(String(describing: url))")
+            print("environment: \(environment)")
+        } catch let err {
+            print("Failed to parse data: \(err)")
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
